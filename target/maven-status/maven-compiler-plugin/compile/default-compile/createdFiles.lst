@@ -1,0 +1,5 @@
+com/example/demo/entity/Feedback.class
+com/example/demo/controller/RestController.class
+com/example/demo/RetrospectiveApplication.class
+com/example/demo/repo/RetroRepo.class
+com/example/demo/entity/Retro.class
