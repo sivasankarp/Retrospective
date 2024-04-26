@@ -24,7 +24,7 @@ Open the Project in IntelliJ IDEA
 3. Configure Project SDK:
    - If prompted, configure the project SDK (Java Development Kit - JDK) in IntelliJ IDEA.
    - Go to File > Project Structure.
-   - Under Project SDK, select your installed JDK (e.g., JDK 11 or JDK 8).
+   - Under Project SDK, select your installed JDK (JDK 17).
 
 # Run the Spring Boot Application
 
