@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "fa081949-fa90-4a52-b05c-f0a891f6f53f",
+		"name": "Retrospective Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34526271"
+	},
+	"item": [
+		{
+			"name": "getRetros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7777/api/retros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7777",
+					"path": [
+						"api",
+						"retros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addRetro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"name\": \"retro1\",\r\n        \"summary\": \"xyz\",\r\n        \"date\": \"2024-04-25T10:20:29.086+00:00\",\r\n        \"participants\": [\r\n            \"abc\",\r\n            \"def\",\r\n            \"Shiva\"\r\n        ],\r\n        \"feedbackList\":[]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7777/api/retro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7777",
+					"path": [
+						"api",
+						"retro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addFeedback",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"name\": \"abc\",\r\n    \"body\": \"I understood the meeting\",\r\n    \"feedbackType\": \"Very Good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7777/api/retro/retro1/feedback",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7777",
+					"path": [
+						"api",
+						"retro",
+						"retro1",
+						"feedback"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateFeedback",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"abc\",\r\n    \"body\": \"It was fantastic kljfdsslkfjsdljfdsfjk\",\r\n    \"feedbackType\": \"abcjsdlfjadslf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7777/api/retro/retro1/feedback",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7777",
+					"path": [
+						"api",
+						"retro",
+						"retro1",
+						"feedback"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchRetrospectivesByDate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7777/api/retros/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7777",
+					"path": [
+						"api",
+						"retros",
+						"search"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
