@@ -12,12 +12,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:7777/api/retros",
+					"raw": "http://localhost:6666/api/retros",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "7777",
+					"port": "6666",
 					"path": [
 						"api",
 						"retros"
@@ -33,7 +33,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": " {\r\n        \"name\": \"retro1\",\r\n        \"summary\": \"xyz\",\r\n        \"date\": \"2024-04-25T10:20:29.086+00:00\",\r\n        \"participants\": [\r\n            \"abc\",\r\n            \"def\",\r\n            \"Shiva\"\r\n        ],\r\n        \"feedbackList\":[]\r\n    }",
+					"raw": " {\r\n        \"name\": \"retro1\",\r\n        \"summary\": \"xyz\",\r\n        \"date\": \"2024-04-25\",\r\n        \"participants\": [\r\n            \"abc\",\r\n            \"def\",\r\n            \"Siva\"\r\n        ],\r\n        \"feedbackList\":[]\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -41,12 +41,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:7777/api/retro",
+					"raw": "http://localhost:6666/api/retro",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "7777",
+					"port": "6666",
 					"path": [
 						"api",
 						"retro"
@@ -70,12 +70,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:7777/api/retro/retro1/feedback",
+					"raw": "http://localhost:6666/api/retro/retro1/feedback",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "7777",
+					"port": "6666",
 					"path": [
 						"api",
 						"retro",
@@ -101,12 +101,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:7777/api/retro/retro1/feedback",
+					"raw": "http://localhost:6666/api/retro/retro1/feedback",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "7777",
+					"port": "6666",
 					"path": [
 						"api",
 						"retro",
@@ -123,12 +123,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:7777/api/retros/search",
+					"raw": "http://localhost:6666/api/retros/search",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "7777",
+					"port": "6666",
 					"path": [
 						"api",
 						"retros",
