@@ -45,4 +45,4 @@ Open the Project in IntelliJ IDEA
    - Once the Spring Boot application is running, open a web browser.
 2. Navigate to the Application URL:
    - Enter the URL of your Spring Boot application in the web browser.
-   - By default, the application may run on http://localhost:8888.
+   - By default, the application may run on http://localhost:6666.
