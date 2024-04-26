@@ -1,21 +1,48 @@
-# Retrospective
-Retrospective Java backend code using Spring boot
+Added the guide to get the code from a Git repository and run a Java Spring Boot application on their local machine using IntelliJ IDEA, Please follow the below steps:
 
-# Getting Started
+# Clone the Git Repository
 
-### Reference Documentation
-For further reference, please consider the following sections:
+1. Clone the Repository:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.2.5/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.2.5/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/3.2.5/reference/htmlsingle/index.html#web)
+- Open your terminal or command prompt.
+- Navigate to the directory where you want to clone the repository:
 
-### Guides
-The following guides illustrate how to use some features concretely:
+### `cd /path/to/destination/directory`
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+2. Clone the Git repository using git clone:
 
+### `git clone https://github.com/sivasankarp/Retrospective`
 
+Open the Project in IntelliJ IDEA
+
+1. Open IntelliJ IDEA:
+   - Launch IntelliJ IDEA on your local machine.
+2. Import the Project:
+   - In IntelliJ IDEA, click on File > Open.
+   - Navigate to the directory where you cloned the repository.
+   - Select the project directory and click Open.
+3. Configure Project SDK:
+   - If prompted, configure the project SDK (Java Development Kit - JDK) in IntelliJ IDEA.
+   - Go to File > Project Structure.
+   - Under Project SDK, select your installed JDK (e.g., JDK 11 or JDK 8).
+
+# Run the Spring Boot Application
+
+1. Run the Application:
+   - Locate the main class of your Spring Boot application (usually annotated with @SpringBootApplication).
+   - Right-click on the main class file.
+   - Select Run <MainClassName> to start the Spring Boot application.
+2. Alternatively, use the Run Configuration:
+   - Click on Run in the menu bar.
+   - Select Edit Configurations....
+   - Click on + to add a new configuration (e.g., Spring Boot).
+   - Specify the main class and other configuration settings.
+   - Click OK to save the configuration, then click Run to start the application.
+
+# Access the Application
+
+1. Open a Web Browser:
+   - Once the Spring Boot application is running, open a web browser.
+2. Navigate to the Application URL:
+   - Enter the URL of your Spring Boot application in the web browser.
+   - By default, the application may run on http://localhost:8888.
